@@ -1,0 +1,11 @@
+[package]
+name = "pc-example"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+protocrap = { path = "../protocrap" }
+allocator-api2 = "0.2"
+
+[build-dependencies]
+protocrap = { path = "../protocrap" , features = ["codegen"] }
